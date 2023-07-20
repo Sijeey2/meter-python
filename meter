@@ -1,0 +1,27 @@
+print ("------")
+meter = float(input("Enter Meter:"))
+
+#formula
+millimeter = meter * 1000
+centimeter = meter * 100
+decimeter = meter * 10
+kilometer  = meter / 1000
+inch = meter * 39.37
+foot = meter * 3.28
+mile = meter / 1609.344
+
+print("-------")
+print(meter,"meter to millimeter=", millimeter)
+print("-------")
+print(meter,"meter to centimeter=", centimeter)
+print("-------")
+print(meter,"meter to decimeter=", decimeter)
+print("-------")
+print(meter,"meter to kilometer=", kilometer)
+print("-------")
+print(meter,"meter to inch=", inch)
+print("-------")
+print(meter,"meter to foot=", foot)
+print("-------")
+print(meter,"meter to mile=", mile)
+print("-------")
